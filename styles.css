@@ -1,0 +1,32 @@
+h1 {
+  color: rgb(17, 17, 17);
+}
+.bg-teal {
+  background-color: teal;
+}
+.text-pink {
+  color: pink;
+}
+
+.prose {
+  max-width: 400px;
+}
+
+#title {
+  text-decoration: underline;
+  font-weight: 100;
+}
+
+.navbar img {
+  width: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.navigation {
+  gap: 20px;
+}
