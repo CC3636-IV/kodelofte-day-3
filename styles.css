@@ -1,11 +1,24 @@
+html {
+  background-color: rgb(178, 208, 210);
+}
+
 h1 {
   color: rgb(17, 17, 17);
 }
-.bg-teal {
-  background-color: teal;
+.bg-primary {
+  background-color: rgb(108, 108, 108);
 }
-.text-pink {
-  color: pink;
+.text-white {
+  color: white;
+}
+
+.p-primary {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 850px;
+  gap: 10px;
 }
 
 .prose {
@@ -23,10 +36,12 @@ h1 {
 
 .navbar {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   align-items: center;
 }
 
 .navigation {
-  gap: 20px;
+  display: grid;
+  justify-content: end;
+  gap: 10px;
 }
